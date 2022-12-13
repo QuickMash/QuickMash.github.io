@@ -1,0 +1,9 @@
+<!doctype html>
+<html>
+<head>
+<script src="script.js"></script>
+<body>
+<button href="login()">Open Login</button>
+</body>
+</head>
+</html>
