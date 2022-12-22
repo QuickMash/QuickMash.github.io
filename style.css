@@ -1,0 +1,13 @@
+span.red {
+ color: #ff0000; 
+}
+body {
+ padding: 10px;
+ color: #ffffff;
+ background-color: #000000;
+}
+div.events {
+ background color: ##FFA500;
+ align: center;
+ padding: 2px;
+}
