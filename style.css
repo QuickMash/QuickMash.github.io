@@ -1,6 +1,12 @@
 span.red {
  color: #ff0000; 
 }
+span.green{
+ color: #00ff00;
+}
+span.blue{
+ color: #0000ff;
+}
 body {
  padding: 10px;
  color: #ffffff;
