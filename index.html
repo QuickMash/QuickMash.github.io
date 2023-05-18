@@ -1,90 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Complex Webpage</title>
+  <title>Navigation Page</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
     }
-    
+
     header {
       background-color: #333;
       color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-    
-    nav {
-      background-color: #f1f1f1;
       padding: 10px;
       text-align: center;
     }
-    
-    nav a {
-      text-decoration: none;
-      margin: 0 10px;
+
+    nav {
+      background-color: #f2f2f2;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
       color: #333;
-      font-weight: bold;
+      text-decoration: none;
+      padding: 5px;
     }
-    
-    main {
-      margin: 20px;
-    }
-    
-    section {
-      margin-bottom: 40px;
-    }
-    
-    h1 {
-      font-size: 24px;
-      margin-bottom: 10px;
-    }
-    
-    p {
-      line-height: 1.5;
-    }
-    
-    footer {
+
+    nav ul li a:hover {
       background-color: #333;
       color: #fff;
-      padding: 20px;
-      text-align: center;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Welcome to My Complex Webpage</h1>
+    <h1>My Website</h1>
   </header>
-  
   <nav>
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Contact</a>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
   </nav>
-  
-  <main>
-    <section>
-      <h1>About Us</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum augue non felis dapibus, a dapibus lorem blandit.</p>
-    </section>
-    
-    <section>
-      <h1>Our Services</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum augue non felis dapibus, a dapibus lorem blandit.</p>
-    </section>
-    
-    <section>
-      <h1>Contact Us</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum augue non felis dapibus, a dapibus lorem blandit.</p>
-    </section>
-  </main>
-  
-  <footer>
-    <p>&copy; 2023 My Complex Webpage. All rights reserved.</p>
-  </footer>
 </body>
 </html>
