@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Redirecting...</title>
   <script>
-    function newload() {
-      window.location = ('https://quickmash.github.io/search');
+    function redirect() {
+      window.location.href = "https://quickmash.cc";
     }
+    // Redirect after 3 seconds to give users a chance to read the message
+    setTimeout(redirect, 3000);
   </script>
 </head>
-<body onload="newload()">
-  <h1>
-    Click to visit quickmash.cc
-  </h1>
-  <button onclick="newload()">Click Me</button>
+<body>
+  <h1>You should be redirected</h1>
+  <p>If it doesn't load, <a href="https://quickmash.cc">click here</a>.</p>
 </body>
 </html>
